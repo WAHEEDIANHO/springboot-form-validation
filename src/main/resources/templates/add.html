@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add User</title>
+    </head>
+    <body>
+        <h3>Add User</h3>
+        <form action="addUser" method="post">
+            <input placeholder="username" name="username" type="text" /> <br />
+<!--            <span th:errors="${user.username}" style="color: red"></span><br />-->
+
+            <input placeholder="password" name="pswrd" type="password" /> <br />
+<!--            <span th:errors="${user.pswrd}" style="color: red"></span>-->
+
+            <input placeholder="email" name="email" type="email" /> <br />
+<!--            <span th:errors="${user.email}" style="color: red"></span>-->
+
+            <input placeholder="grade" name="grade" type="text" /> <br />
+<!--            <span th:errors="${user.grade}"style="color: red"></span>-->
+
+            <input type="submit" value="Add">
+        </form>
+
+    </body>
+</html>
